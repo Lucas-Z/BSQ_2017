@@ -12,7 +12,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
-
 #include "my.h"
 
 int read_file(char *file_path, char ***matrix_str, int *nb_column, int *nb_row)
