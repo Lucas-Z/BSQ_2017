@@ -40,6 +40,7 @@ int main(int argc, char **argv)
 	int **matrix;
 	point_t max_point = {.x = -1, .y = -1};
 	point_t matrix_size;
+
 	if(argc > 2)
 		return 84;
 	read_file(argv[1], &matrix_str, &matrix_size.x, &matrix_size.y);
